@@ -1,0 +1,79 @@
+#main-container{
+   margin: 0;
+   padding: 0;
+}
+h2{
+    text-align: center;
+}
+.basic{
+    display: flex;
+  
+}
+.basic div{
+    border: 1px solid red;
+    padding: 5px;
+}
+
+/*container*/
+
+.container{
+display: flex;
+}
+.container div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/*ORDER USING GRID*/
+.box-4{
+order: 3;
+}
+.box-5{
+order: 1;
+}
+.box-6{
+order: 2;
+} 
+
+/*align items  to start, end, center . strech would be  setting to default*/
+.container1{
+    display: flex;
+    /*align-items: flex-start;*/
+    align-items: flex-end;
+   /* align-items: center;*/
+}
+.container1 div{
+    width: 30%;
+    border: 1px solid gray;
+}
+.container1 .box-7, .container1 .box-9{
+    width: 30%;
+    height: 40vh;
+}
+
+.container1 .box-8{
+    width: 30%;
+    height: 30vh;
+}
+/*flex-direction into column & row format*/
+.container2{
+display: flex;
+flex-direction: column;
+/* flex-direction:row;*/
+}
+.container2 div{
+    padding: 5px;
+border: 1px solid pink;
+}
+.container3 {
+    display: flex;
+ justify-content: flex-end;   
+}
+
+.container3 div{
+    width: 20%;
+    height: 30vh;
+    padding: 5px;
+    border: 1px solid slateblue;
+
+}
